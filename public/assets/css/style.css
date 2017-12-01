@@ -1,0 +1,205 @@
+/*************************************  LOGIN AND REGISTRATION PAGE  *****************************/
+/*HEADER*/
+#app-layout{
+    background-image: url("../images/bg_main.gif");
+}
+.white_color{
+    color: #ffffff;
+}
+.login-header{
+    background-color: #262626;
+    text-align: right;
+    margin-bottom: 50px;
+}
+.login-header span{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #6f9a37;
+    border-radius: 5px;
+}
+.login-header span a{
+    color: #ffffff;
+}
+/*************************************  HEADER  *****************************/
+.navbar_nav_menu{
+    float: right;
+}
+.navbar_nav_menu li a{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*************************************  CONTENT  *****************************/
+.content{
+
+}
+.field_title_container{
+    padding-right: 0;
+    padding-left: 0;
+    color: #ffffff;
+    background-color: #571f1c;
+    font-size: 16px;
+    border-bottom: 3px solid #000;
+}
+.field_title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.customer_box{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #571f1c;
+}
+.customer_box_info{
+    padding: 0;
+}
+.customer_box_button{
+    text-align: right;
+}
+.customer_box_button span{
+    display: inline-block;
+    margin: 0 3px;
+    padding: 5px 8px;
+}
+.field_item{
+    padding: 5px;
+}
+.field_value{
+    color: #000000;
+}
+.edit_cust{
+    background-color: #9C27B0;
+}
+.edit_cust a{
+    color: #ffffff;
+}
+.delete_cust{
+    background-color: #df0031;
+}
+.delete_cust a{
+    color: #ffffff;
+}
+.add_visit{
+    background-color: #66ab00;
+    padding: 5px;
+}
+.view_visit{
+    background-color: #153A49;
+    padding: 5px;
+}
+.add_visit a, .view_visit a{
+    color: #ffffff;
+}
+.title_add_page{
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 0;
+}
+/*************************************  View Customer  *****************************/
+.view_customer_box{
+    margin: 10px 0;
+}
+.view_customer_title{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.view_customer_db{
+    font-size: 16px;
+    border-bottom: 1px solid #000;
+}
+.view_customer_checkbox{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*********************************** View Visit List **************************/
+.visit_list_box{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #571f1c;
+}
+.visit_list_box a{
+    color: #000000;
+}
+.visit_list_createat{
+    padding: 0;
+}
+.visit_list_button{
+    text-align: right;
+}
+.visit_list_edit{
+    background-color: #9C27B0;
+    padding: 10px;
+    margin-right: 10px;
+}
+.visit_list_edit a, .visit_list_delete a{
+    color: #fff;
+    font-size: 14px;
+}
+.visit_list_delete{
+    background-color: #df0031;
+    padding: 10px;
+}
+/*************************************  View Visit  *****************************/
+.tooth_ill{
+    margin: auto;
+}
+.tooth_ill tr td{
+    position: relative!important;
+    border: 1px solid #000000;
+    text-align: center;
+}
+.tooth_ill tr td input{
+    border: none;
+    outline: none;
+}
+/*************************************  View Visit  *****************************/
+.table_illnesses{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.tooth_ill_visit tr td{
+     padding: 5px;
+}
+.toothIllBox>ul>li{
+    border-bottom: 1px solid #000000;
+}
+/*************************************  Edit Visit  *****************************/
+
+
+/*****************************  Canvas Table drug and drop  **************************/
+.textarea{background: #fff;}
+.dragitems{width: 20%; float: left; background: #f1f1f1;}
+
+.dropitems{width: 70%;float: left;background: #f1f1f1;
+    margin-left: 20px;padding:5px 5px 5px 5px;}
+.dragitems ul{list-style-type: none;padding-left: 5px;
+    display: block;}
+#content{height: 400px;width: 650px;}
+
+
+/*********************************************  Pagination  ******************************************/
+.pagination{
+    text-align: center;
+}
+/******************************* Print *****************************/
+@media print {
+    .print_button {
+        display: none;
+    }
+}
+/*delete*/
+.delete_new{
+    background-color: #df0031!important;
+    border: none!important;
+    color: #fff;
+}
+
+
+
+
